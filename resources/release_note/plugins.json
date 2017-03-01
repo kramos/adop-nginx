@@ -8,35 +8,46 @@
                         "title": "jenkins",
                         "img": "img/jenkins.png",
                         "description": "Continuous Integration & Automation Server",
-                        "link": "/jenkins/"
+                        "link": "/jenkins/",
+			"helpstep": "1",
+			"helptext": "Jenkins is the CI/CD orchestator and forms the heart of ADOP.  Click here to get started!"
                     },
                     {
                         "id": "gerrit",
                         "title": "gerrit",
                         "img": "img/gerrit.jpg",
                         "description": "Git Repository Management & Code Review Tool",
-                        "link": "/gerrit/"
+                        "link": "/gerrit/",
+                        "helpstep": "2",
+			"helptext": "Gerrit is the Git repository manager.  Click here to view the code."
+
                     },
                     {
                         "id": "sonar",
                         "title": "sonar",
                         "img": "img/sonar.png",
                         "description": "Static Code Analysis",
-                        "link": "/sonar/"
+                        "link": "/sonar/",
+                        "helpstep": "3",
+			"helptext": "SonarQube is used for running static code analysis and displaying the results."
                     },
                     {
                         "id": "nexus",
                         "title": "nexus",
                         "img": "img/nexus.png",
                         "description": "Software Repository Manager",
-                        "link": "/nexus/"
+                        "link": "/nexus/",
+                        "helpstep": "4",
+			"helptext": "Nexus is a binary artefact repository."
                     },
                     {
                         "id": "kibana",
                         "title": "kibana",
                         "img": "img/kibana.png",
                         "description": "Kibana Dashboard for Logging (ELK)",
-                        "link": "/app/kibana"
+                        "link": "/app/kibana",
+                        "helpstep": "5",
+			"helptext": "Kibana is the dashboard for the ELK stack.  Click here to browse all of the logs aggregated by ADOP."
                     },
                     {
                         "id": "selenium",
@@ -47,28 +58,36 @@
                         "linkCreate": {
                             "host": "selenium",
                             "endPath": "//grid/console"
-                        }
+                        },
+                        "helpstep": "6",
+			"helptext": "Selenium grid is for automated browser testing."
                     },
                     {
                         "id": "sensu",
                         "title": "sensu",
                         "img": "img/sensu.png",
                         "description": "Monitoring",
-                        "link": "/sensu/"
+                        "link": "/sensu/",
+                        "helpstep": "7",
+			"helptext": "Sensu is a monitoring tool."
                     },
                     {
                         "id": "ldap-ltb",
                         "title": "ltb",
                         "img": "img/ltb.png",
                         "description": "Application that allows users to change their password in an LDAP directory",
-                        "link": "/ldap-ltb/"
+                        "link": "/ldap-ltb/",
+                        "helpstep": "8",
+			"helptext": "This is a password manager for the local user directory."
                     },
                     {
                         "id": "ldap-phpadmin",
                         "title": "phpldapadmin",
                         "img": "img/phpldapadmin.png",
                         "description": "Browser to manage your LDAP server",
-                        "link": "/ldap-phpadmin/"
+                        "link": "/ldap-phpadmin/",
+                        "helpstep": "9",
+			"helptext": "This is a browser for the local user directory."
                     }
                 ]
             }

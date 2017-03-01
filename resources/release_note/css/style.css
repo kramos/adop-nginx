@@ -73,7 +73,7 @@ a {
 
 #header {
   position: relative;
-  height: 200px;
+  height: 160px;
   overflow: hidden;
   background-color: #026002; }
   #header .header-cover {
@@ -169,7 +169,7 @@ MAIN CONTENT
 
 /* services - tools */
 #core {
-  padding: 60px 0;
+  padding: 20px 0;
   background-color: #ffffff; }
   #core .services {
     padding-bottom: 60px;
@@ -181,7 +181,7 @@ MAIN CONTENT
       font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
       font-size: 4.1em;
       font-size: 4.6rem;
-      margin: 0 0 40px; }
+      margin: 0 0 20px; }
       #core .services h1.service-heading:after {
         content: " ";
         display: block;
